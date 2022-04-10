@@ -1,0 +1,114 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: red;
+}
+nav>img{
+    max-width: 200px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+li {
+    display: inline;
+    padding-left: 5%;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  li a:hover {
+    color:rgb(38, 241, 241);
+  }
+.intro {
+    background-image: url("imgs/forest.jpg");
+    background-color: #cccccc;
+    height: 40vw;
+    min-height: 450px;
+    position: relative;
+   }
+.intro>img{
+    position: absolute;
+    bottom: 0;
+    left: 15vw;
+    height: 400px;
+}
+.intro>p{
+    position: absolute;
+    bottom: 10vw;
+    right: 8vw;
+    background-color: aliceblue;
+    padding: 5%;
+    width: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border: aquamarine solid 5px;
+}
+.about{
+    background-color: whitesmoke;
+    height: 40vw;
+    min-height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.about>.p{
+    flex-basis: 50%;
+    padding: 2%;
+    width: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border: aquamarine solid 5px;
+}
+.about>.aboutImg{
+    flex-basis: 50%;
+}
+.aboutImg>img{
+    height: 400px;
+}
+.cardSection{
+    background-color: rgb(38, 241, 241);
+    height: 35vw;
+    min-height: 450px;
+    padding: 5%;
+    align-items: center;
+}
+.pokeCard{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: azure;
+    border: red 3px solid;
+    width: 50%;
+    padding: 5% 0;
+    background-color: blueviolet;
+}
+.name{
+    text-transform: uppercase;
+}
+.type, .weight{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.pokeImg{
+    min-width: 150px;
+}
+footer>div{
+    text-align: center;
+}
+footer>div>p{
+    font-size: x-large;
+}
